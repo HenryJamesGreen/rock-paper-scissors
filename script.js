@@ -1,13 +1,17 @@
 let userTell = prompt("Do you want to play a game?");
 
 for (let i = 0; i < 2; i++) {
+    if (userTell === null) {
+        alert("You made me sad :'(");
+        break;
+      }
   userTell = userTell.toLowerCase();
 
-  if (userTell === true || userTell === "no") {
+  if (userTell === "no") {
     alert("You made me sad :'(");
     break;
   }
-
+ 
   if (userTell === "yes");
 
   {
