@@ -1,17 +1,17 @@
 let userTell = prompt("Do you want to play a game?");
 
 for (let i = 0; i < 2; i++) {
-    if (userTell === null) {
-        alert("You made me sad :'(");
-        break;
-      }
+  if (userTell === null) {
+    alert("You made me sad :'(");
+    break;
+  }
   userTell = userTell.toLowerCase();
 
   if (userTell === "no") {
     alert("You made me sad :'(");
     break;
   }
- 
+
   if (userTell === "yes");
 
   {
@@ -61,7 +61,11 @@ for (let i = 0; i < 2; i++) {
         "\nTotal ties: " +
         ties
     );
-
-    prompt("play again?");
   }
+
+  /*let userConfirm
+  prompt("play again?");
+  if (userConfirm === "no") {
+    alert("You made me sad :'(");
+    break;}*/
 }
