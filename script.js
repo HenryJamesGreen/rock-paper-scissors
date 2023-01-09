@@ -1,4 +1,12 @@
+let userChoice = ["yes", "no"]
 let userTell = prompt("Do you want to play a game?");
+
+if (userChoice.indexOf(userTell)===-1) {
+    for (let i=0; i < 2; i++) {
+    if(alert("Try again!"));
+    { prompt ("do you want to play a game?")}
+  }
+}
 
 for (let i = 0; i < 2; i++) {
   if (userTell === null) {
@@ -11,6 +19,7 @@ for (let i = 0; i < 2; i++) {
     alert("You made me sad :'(");
     break;
   }
+
 
   if (userTell === "yes");
 
@@ -68,6 +77,8 @@ for (let i = 0; i < 2; i++) {
     alert("Thank you for playing :D");
     break;
   }
+  userDecision = userDecision.toLowerCase();
+
   if (userDecision === "no") {
     alert("See ya next time =)");
     break;
