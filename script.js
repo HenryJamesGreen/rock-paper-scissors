@@ -62,10 +62,14 @@ for (let i = 0; i < 2; i++) {
         ties
     );
   }
+  let userDecision = prompt("play again?");
 
-  /*let userConfirm
-  prompt("play again?");
-  if (userConfirm === "no") {
-    alert("You made me sad :'(");
-    break;}*/
+  if (userDecision === null) {
+    alert("Thank you for playing :D");
+    break;
+  }
+  if (userDecision === "no") {
+    alert("See ya next time =)");
+    break;
+  }
 }
