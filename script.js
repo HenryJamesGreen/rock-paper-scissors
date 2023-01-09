@@ -1,3 +1,15 @@
+let userTell = prompt("Do you want to play a game?")
+
+if (userTell === null) 
+    alert("You made me sad :'(");
+
+if (userTell === "yes");
+
+userTell = userTell.toUpperCase();
+
+{
+
+
 let computerChoices = ["r", "p", "s"];
 
 let wins = 0;
@@ -39,3 +51,5 @@ while (wins + losses + ties < 5) {
 alert(
   "Total wins: " + wins + "\nTotal losses: " + losses + "\nTotal ties: " + ties
 );
+
+}
